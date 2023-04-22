@@ -16,6 +16,9 @@ probability it deduced.
 Or perhaps organizing it in a better way(which I have no idea right now). How can one add more data in order to test it?
 * OBS: Perhaps 1% will still show up too much information. It might be interesting to let the user itself to decide this number.
 * Problem²: Considering we want to deal with human lives, what is the minimum accuracy that the model must have? How big should the dataset be?
+* Problem³: If we want to complement our dataset, how difficult would it be to obtain the symptoms and diagnosis of each patient admitted to a hospital?
+
+** It seems it's just a matter of time before GPT starts being used for this task. How would be able to make our model be better than GPT? Considering the structure behind OpenAI, it's unlikely that we would be able to make a model even better than GPT-4 or even an eventual 5, 6... Our advantage, however, would be in optimization and cheapness. OpenAI is having trouble with its openess. No one can be so open while also using models with billions of parameters, trained on dozens of last generation GPUs. **
 
 ## Further Development
-Making Nightingale not only say the diagnosis, but also the active ingredient that can treat such sickness
+Making Nightingale not only say the diagnosis, but also the active component that can treat such sickness
