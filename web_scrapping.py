@@ -1,6 +1,13 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
+'''
+Search for databases with relation Disease ---> Symptom Incidence (must be or converted to %)
+
+https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
+
+'''
+
 with urlopen("https://www.msdmanuals.com/professional") as url:
     test = url.read()
 
