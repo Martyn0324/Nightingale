@@ -6,6 +6,8 @@ Search for databases with relation Disease ---> Symptom Incidence (must be or co
 
 https://people.dbmi.columbia.edu/~friedma/Projects/DiseaseSymptomKB/index.html
 
+Book for Reference: Symptom to Diagnosis: An Evidence-Based Guide, by STERN et al.
+
 '''
 
 with urlopen("https://www.msdmanuals.com/professional") as url:
